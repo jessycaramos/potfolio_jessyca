@@ -1,0 +1,174 @@
+:root{
+    --fonte-principal: 'Verdana';
+    --fundo-principal: rgb(241, 207, 252);
+    --cor-principal: rgb(138, 2, 138);
+    --cor-de-fundo: #e1c2e7;
+    --cor-botao: #d292df;
+    --cor-texto: rgb(68, 0, 68);
+    /*Usei o root para colocar algumas caracteristicas do código que iriam se repetir durante o CSS*/
+}
+@media screen {max-width: 780px;
+    
+}
+body{
+    background-color: var(--fundo-principal);
+    color: #f6f6f6;
+}
+h1{
+    color: var(--cor-principal);
+    padding: 1%;
+    margin: 1% 2%;
+    text-align: center;
+    border: solid #f6f6f6 2px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal) ;
+
+}
+h3{
+    color: var(--cor-principal); 
+    margin: 0 35%;
+    padding: 2% 3%;
+    font-size: 180%;
+    font-weight: 200;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1                              
+    font-family: var(--fonte-principal);
+}
+
+strong {
+    color: var(--cor-texto); 
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 2%;
+    margin: 5%;
+}
+.eu{
+    margin: 2% 0;
+    width: 20%;
+    height: 50%;
+}
+.paragrafo{
+    padding: 2%;
+    border: solid #f6f6f6 2px;
+    border-radius: 10px;
+    border-style:outset;
+    background-color: #e1c2e7;
+    margin: 0;
+    color: blueviolet;
+    font-size: 100%;
+    text-align: justify;
+    font-family: var(--fonte-principal);
+}
+.port{
+    width: 70%;
+}
+.hr2{
+    color: var(--cor-principal);
+    width: 50%;
+    border-style: dotted;
+} /*Utilizei uma linha decorada para criar uma divisão em alguns pontos do portfólio*/
+.menu{
+    margin: 0;
+    padding: 1% 12%;
+    color: var(--cor-principal);
+    text-decoration: none;
+    border: solid white 1px;
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: #e1c2e7;
+    font-family: var(--fonte-principal);
+    font-size: 90%;
+}
+.menu li {
+    
+    display: inline-flex;
+    margin: 0 8%;
+    text-decoration-line: none;
+    color: var(--cor-principal);
+}
+.menu li a{
+    text-decoration: none;
+   
+}
+.menu li a:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
+h2{
+    color: var(--cor-texto); 
+    margin: 0 25%;
+    font-size: 150%;
+    font-weight: 200;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+.paragrafo_secundario{
+    padding: 0;
+    margin: 0;
+    color: blueviolet;
+    font-size: 100%;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+.p2{
+    padding: 2%;
+    margin: 0 2%;
+    border: white solid 2px;
+    border-radius: 10px;
+    border-style: outset;
+    color: blueviolet;
+    font-size: 100%;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+.site{
+    width: 55%;
+    margin: 10px 300px;
+}
+.botao{
+    border: solid white 2px;
+    border-radius: 5px;
+    margin-top: 25%;
+    margin: 46%;
+    padding: 10px;
+    background-color: var(--cor-botao);
+    color: blueviolet;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
+.rotulo{
+    color: var(--cor-texto);
+    margin: 0 2%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+.rotulodois{
+    color: var(--cor-texto);
+    border-radius: 5px;
+    padding: 1%;
+    margin: 0 2%;   
+}
+.container{
+    margin: 1% 1%;
+    padding: 2%;
+}
+.botao2{
+    border: solid white 2px;
+    border-radius: 5px;
+    margin-top: 15%;
+    margin: 1%;
+    padding: 1%;
+    background-color: var(--cor-botao);
+    color: blueviolet;
+    text-decoration: none;
+}
+.botao2:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
